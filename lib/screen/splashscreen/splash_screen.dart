@@ -16,6 +16,7 @@ class SplashScreen extends StatelessWidget {
         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomeScreen(),));
       }
     });
+
     return Container(
       height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width,

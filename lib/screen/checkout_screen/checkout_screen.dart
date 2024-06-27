@@ -10,6 +10,7 @@ class CheckOutScreen extends StatelessWidget {
   final TextEditingController phoneController=TextEditingController();
   final TextEditingController addressController=TextEditingController();
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

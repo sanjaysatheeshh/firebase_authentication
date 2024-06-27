@@ -13,6 +13,7 @@ class CartView extends StatefulWidget {
   State<CartView> createState() => _CartViewState();
 }
 
+
 class _CartViewState extends State<CartView> {
   Future<List> getCartItems() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();

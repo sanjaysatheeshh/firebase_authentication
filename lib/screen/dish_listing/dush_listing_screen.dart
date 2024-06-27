@@ -92,6 +92,7 @@ class DishListing extends StatelessWidget {
                                 fontWeight: FontWeight.w400),
                           )));
                     }
+
                     Navigator.pop(context);
                   },
                   child: Row(
